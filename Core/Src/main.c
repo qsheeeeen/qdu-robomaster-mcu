@@ -23,6 +23,7 @@
 #include "adc.h"
 #include "can.h"
 #include "crc.h"
+#include "dcmi.h"
 #include "dma.h"
 #include "i2c.h"
 #include "rng.h"
@@ -119,6 +120,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART6_UART_Init();
   MX_TIM7_Init();
+  MX_DCMI_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
